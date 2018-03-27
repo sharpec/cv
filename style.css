@@ -116,7 +116,8 @@ li{
   /* assigning a fixed width here is no better due to needing to align decorator
      line too */
   position: absolute;
-  left: var(--main-blocks-title-icon-offset-left);
+  left: -43px;
+  top: -18px;
   z-index: 1; /* over decorator line */
   color: #444;
 }
@@ -128,7 +129,7 @@ li{
   /* XXX: 0.5px for aligning fx printing */
   left: calc(-1 * var(--decorator-horizontal-margin));
   display: block;
-  border-left: var(--decorator-border);
+/*  border-left: var(--decorator-border);*/
   z-index: 0;
   line-height: 0;
   font-size: 0;
@@ -137,22 +138,21 @@ li{
 
 /**** minor tweaks on the icon fonts ****/
 #main h2 > .fa-graduation-cap{
-  left: calc(var(--main-blocks-title-icon-offset-left) - 2pt);
-  top: 2pt;
+  top: -9pt;
   content:url(https://raw.githubusercontent.com/sharpec/cv/master/img/certificate.png);
-  transform: scale(.7);
+  transform: scale(.5);
 }
 
 #main h2 > .fa-suitcase{
-  top: 1pt;
+  top: -9pt;
   content:url(https://raw.githubusercontent.com/sharpec/cv/master/img/briefcase-outline.png);
-  transform: scale(.7);
+  transform: scale(.5);
 }
 
 #main h2 > .fa-folder-open{
-  top: 1.5pt;
+  top: -9pt;
   content:url(https://raw.githubusercontent.com/sharpec/cv/master/img/folder-outline.png);
-  transform: scale(.7);
+  transform: scale(.5);
 }
 
 /**** individual row blocks (date - decorator - details) ****/
