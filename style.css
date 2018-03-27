@@ -264,7 +264,6 @@ li{
 
 .details .location{
   float: right;
-  content:url(https://raw.githubusercontent.com/sharpec/cv/master/img/map-marker.png);
 }
 
 .details div{
@@ -280,6 +279,7 @@ li{
   font-weight: normal;
   font-style: normal;
   text-decoration: inherit;
+  content:url(https://raw.githubusercontent.com/sharpec/cv/master/img/map-marker.png);
   content: "\f041";
 }
 
