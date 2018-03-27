@@ -139,14 +139,20 @@ li{
 #main h2 > .fa-graduation-cap{
   left: calc(var(--main-blocks-title-icon-offset-left) - 2pt);
   top: 2pt;
+  content:url(https://raw.githubusercontent.com/sharpec/cv/master/img/certificate.png);
+  transform: scale(.7);
 }
 
 #main h2 > .fa-suitcase{
   top: 1pt;
+  content:url(https://raw.githubusercontent.com/sharpec/cv/master/img/briefcase-outline.png);
+  transform: scale(.7);
 }
 
 #main h2 > .fa-folder-open{
   top: 1.5pt;
+  content:url(https://raw.githubusercontent.com/sharpec/cv/master/img/folder-outline.png);
+  transform: scale(.7);
 }
 
 /**** individual row blocks (date - decorator - details) ****/
@@ -274,13 +280,9 @@ li{
   display: inline-block;
   position: relative;
   right: 3pt;
-  top: 0.25pt;
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
+  top: 4pt;
   content:url(https://raw.githubusercontent.com/sharpec/cv/master/img/map-marker.png);
-  content: "\f041";
+  transform: scale(.7);
 }
 
 /***** fine-tunes on the lists... *****/
